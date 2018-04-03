@@ -9,7 +9,7 @@ class GupiaoSpider(scrapy.Spider):
     name = 'gupiao'
     allowed_domains = ["www.zhihu.com"]
     start_urls = ['http://www.zhihu.com']
-    start_user = 'excited-vczh'
+    start_user = 'yin-bai-dong'
     #用户的基本信息
     user_url = 'https://www.zhihu.com/api/v4/members/{user}?include={include}'
     #include
